@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karan Biradar | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif; }
+body { background:#0f172a; color:#e2e8f0; }
+nav {
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:#020617;
+    position:sticky;
+    top:0;
+}
+nav h2 { color:#38bdf8; }
+nav ul { display:flex; gap:20px; list-style:none; }
+nav a { color:#e2e8f0; text-decoration:none; }
+.hero {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+    text-align:center;
+    flex-direction:column;
+}
+.hero h1 { font-size:48px; }
+.hero span { color:#38bdf8; }
+.btn {
+    margin-top:20px;
+    padding:10px 20px;
+    background:#38bdf8;
+    color:black;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+section { padding:60px 80px; }
+.card {
+    background:#020617;
+    padding:20px;
+    border-radius:12px;
+    margin:10px 0;
+}
+footer {
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <h2>Karan</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="hero">
+    <h1>Hi, I'm <span>Karan Biradar</span></h1>
+    <p>Computer Science Engineer | Java Developer</p>
+    <button class="btn">Download Resume</button>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        Passionate Computer Science student specializing in Java development and database systems. Currently building real-world applications like Electricity Bill Calculator with tariff logic and discounts.
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">Java</div>
+    <div class="card">SQL</div>
+    <div class="card">Azure</div>
+    <div class="card">GitHub</div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+        <b>Electricity Bill Calculator System</b><br>
+        Smart tariff-based billing system with user category discounts.
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">Email: yourmail@gmail.com</div>
+    <div class="card">LinkedIn: linkedin.com/in/yourname</div>
+</section>
+
+<footer>
+    © 2026 Karan Biradar
+</footer>
+
+</body>
+</html>
